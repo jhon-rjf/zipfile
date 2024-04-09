@@ -1,0 +1,13 @@
+train: /content/gdrive/MyDrive/TheCodingBug/yolov7/data/yolov7_bird.v1i.yolov7pytorch/train
+val: /content/gdrive/MyDrive/TheCodingBug/yolov7/data/yolov7_bird.v1i.yolov7pytorch/valid
+
+
+nc: 2
+names: ['a', 'bird']
+
+roboflow:
+  workspace: barcode-q28yc
+  project: yolov7_bird
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/barcode-q28yc/yolov7_bird/dataset/1
